@@ -1,0 +1,11 @@
+{
+  "name": "deathNote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lmy071/deathNote.git",
+  "author": "Ljinyi <331930907@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
