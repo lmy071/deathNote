@@ -6,6 +6,7 @@
   "author": "Ljinyi <331930907@qq.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^20.1.3",
     "axios": "^1.4.0"
   }
 }
