@@ -9,7 +9,7 @@ class MyStack {
     }
 
     pop(): number {
-        return this.queue.pop() || 0
+        return this.queue.pop() as number
     }
 
     top(): number {
