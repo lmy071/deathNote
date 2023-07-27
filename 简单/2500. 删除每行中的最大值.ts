@@ -16,5 +16,5 @@ function deleteGreatestValue(grid: number[][]): number {
     res += max
   }
   return res
-};
+}
 console.log(deleteGreatestValue([[1,2,4],[3,3,1]]));
