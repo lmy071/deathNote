@@ -19,9 +19,3 @@ function createCounter(init: number): ReturnObj {
     },
   }
 };
-
-
-const counter = createCounter(5)
-console.log(counter.increment())
-counter.reset(); // 5
-counter.decrement(); // 4
