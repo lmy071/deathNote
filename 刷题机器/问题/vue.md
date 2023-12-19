@@ -1,0 +1,9 @@
+# 1.nextTick运行原理
+# 2.vue生命周期
+# 3.vue双向绑定原理
+# 4.vue组件通信
+# 5.vuex
+# 6.vue-router
+# 7.vue-cli
+# 8.v-if和v-show的区别
+# 9.vue-router和vuex的区别
