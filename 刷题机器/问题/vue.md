@@ -7,3 +7,9 @@
 # 7.vue-cli
 # 8.v-if和v-show的区别
 # 9.vue-router和vuex的区别
+# 10.数据请求在created和mouted的区别
+# 11.v-if和v-for放一起使用
+# 12.为什么data属性是一个函数而不是一个对象？
+# 13.Vue中组件和插件有什么区别？
+# 14.Vue组件之间的通信方式都有哪些？
+# 15.双向绑定
