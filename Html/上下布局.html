@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>上下布局</title>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .header {
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+    }
+    .content {
+        flex: 1;
+        overflow-y: auto;
+        padding: 10px;
+    }
+    .footer {
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="content">
+            <!-- 这里放置超出部分需要滚动的内容 -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <p>Lorem ipsum dolor sit amet, cvonsectetur adipiscing elit. Donec ultricies lorem non magna euismod, et efficitur nisl malesuada. Phasellus nec est id lectus ultricies ultricies. Sed ut suscipit velit, et accumsan felis. Sed rhoncus mauris a erat vestibulum commodo.</p>
+            <!-- 重复这些内容以增加页面高度 -->
+            <!-- ... -->
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
